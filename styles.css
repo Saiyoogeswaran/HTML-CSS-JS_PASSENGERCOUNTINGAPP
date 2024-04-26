@@ -1,0 +1,83 @@
+body {
+    background-image: url("./images/station.jpg");
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color:yellow;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 42%;
+    background-size: cover;
+}
+.overall {
+    background-color: rgb(159, 196, 228);
+    width:40%;
+    margin:0 auto;
+    border-radius: 10px;
+    padding: 20px 0 5px 0;
+    }
+#title {
+    font-size: 40px;
+    color: rgb(57, 212, 223);
+    background-color: white;
+    border-bottom: 0;
+    margin: 0 auto 20px auto;
+    width: fit-content;
+    text-shadow: 2px 2px 2px black;
+    padding: 15px 30px;
+    border-radius: 6px;
+} 
+h2 {
+    background-color: rgb(19, 12, 12);
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin:10px 0;
+    text-shadow: 0 0 10px white;
+    width: fit-content;
+    margin: 0 auto;
+}
+h3{
+    font-size: 45px;
+    margin : 20px 0;
+    text-shadow: 0 0 5px black;
+    color:whitesmoke;
+}
+button {
+    border: 2px solid whitesmoke;
+    padding:10px 0;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+}
+#increment-btn {
+    background-color: #206446;
+}
+#increment-btn:hover{
+    font-size: large;
+}
+#save-btn {
+    background-color: #deb096;
+}
+#save-btn:hover {
+    font-size: large
+}
+#save-el {
+    font-size: x-large;
+    text-shadow: 0 0 10px white;
+    background-color: rgb(19, 12, 12);
+    width: fit-content;
+    margin: 20px auto;
+    padding: 6px 12px ;
+    border-radius: 6px;
+}
+#reset-btn {
+    background-color: #ed460a;
+}
+#reset-btn:hover {
+    font-size: large
+}
